@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Model artifacts
+*.pt
+*.pth
+*.bin
+
+# ESP-IDF
+/idf_inference/build/
+/idf_inference/sdkconfig.old
+
+# Editors
+.DS_Store
+.idea/
+.vscode/

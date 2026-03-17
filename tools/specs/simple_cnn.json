@@ -1,0 +1,47 @@
+{
+  "input_shape": [1, 28, 28],
+  "layers": [
+    {
+      "type": "conv2d_i8",
+      "name": "conv1",
+      "weight_key": "conv1.weight",
+      "bias_key": "conv1.bias",
+      "stride": [1, 1],
+      "padding": [1, 1]
+    },
+    { "type": "relu" },
+    {
+      "type": "maxpool2d",
+      "kernel": [2, 2],
+      "stride": [2, 2]
+    },
+    {
+      "type": "conv2d_i8",
+      "name": "conv2",
+      "weight_key": "conv2.weight",
+      "bias_key": "conv2.bias",
+      "stride": [1, 1],
+      "padding": [1, 1]
+    },
+    { "type": "relu" },
+    {
+      "type": "maxpool2d",
+      "kernel": [2, 2],
+      "stride": [2, 2]
+    },
+    { "type": "flatten" },
+    {
+      "type": "dense_i8",
+      "name": "fc1",
+      "weight_key": "fc1.weight",
+      "bias_key": "fc1.bias"
+    },
+    { "type": "relu" },
+    {
+      "type": "dense_i8",
+      "name": "fc2",
+      "weight_key": "fc2.weight",
+      "bias_key": "fc2.bias"
+    }
+  ]
+}
